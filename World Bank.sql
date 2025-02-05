@@ -42,6 +42,9 @@ from international_debt
 group by indicator_name
 order by avg(debt) desc
 
+--We can see that the indicator DT.AMT.DLXF.CD tops the chart of average debt. This category includes repayment of long term debts. 
+--Countries take on long-term debt to acquire immediate capital. More information about this category can be found here.
+
 --6.) The highest amount of principal repayments
 
 select top 1 country_name , indicator_name 
